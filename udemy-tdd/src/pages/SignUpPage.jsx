@@ -51,7 +51,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <>
+    <div data-testid="signup-page">
       <h1>Sign Up</h1>
       <form>
         <label htmlFor="username">Username</label>
@@ -66,7 +66,7 @@ const SignUpPage = () => {
           Sign Up
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
